@@ -1,3 +1,12 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
 .footer {
     display: flex;
   justify-content: center;
@@ -8,6 +17,72 @@
   width: 100%;
   height: 72px;
   background: #E5E7Eb
-  
+}
 
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    
+}
+a{
+    text-decoration: none;
+    color: #E5E7Eb;
+    padding: 8px;
+    
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    color: white;
+    height: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.layer-1 {
+    background-color: #1f2937;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+button {
+     display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    margin-right: 24px;
+    text-align: left;
+ }
+
+
+.card-h {
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+.button {
+    width: 70px;
+    
 }

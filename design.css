@@ -86,3 +86,68 @@ button {
     width: 70px;
     
 }
+
+.layer-2 {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-right: 0px ;
+    text-align: center;
+}
+.layer-3{
+    background-color: #E5E7Eb;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.layer-4 {
+    background-color: #1f2937;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.text {
+  color: #142937;
+}
+
+.info {
+    max-width: 200px;
+    padding: 20px;
+}
+
+.layer-2 img{
+    width: 200px;
+    height: 150px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 8px;
+}
+
+.l2-h {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 32px;
+    background-color: white;
+    color: #142937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l2-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.l3

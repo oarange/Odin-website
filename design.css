@@ -99,12 +99,11 @@ button {
 }
 .layer-3{
     background-color: #E5E7Eb;
-    height: 300px;
+    height: 200px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     color: white;
-    
+    justify-content: center;
 }
 .layer-4 {
     background-color: #1f2937;
@@ -150,4 +149,15 @@ button {
 
 }
 
-.l3
+.l3 {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 52px;
+    text-align: center;
+}
+
+.l3-text {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
